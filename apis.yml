@@ -1,0 +1,56 @@
+aid: zoho-meeting
+name: Zoho Meeting
+description: >-
+  Zoho Meeting is an online meeting, video conferencing, and webinar platform
+  from Zoho that lets teams host secure meetings, presentations, and recorded
+  webinars from any device. The Zoho Meeting REST API enables programmatic
+  scheduling, management, and reporting of meetings and webinars, including
+  registrant handling and session lifecycle. Authentication uses Zoho's OAuth
+  2.0 (Zoho-oauthtoken) with domain-specific API endpoints.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Online Meetings
+  - Video Conferencing
+  - Webinars
+  - Collaboration
+  - Zoho
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/zoho-meeting/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: zoho-meeting:rest-api
+    name: Zoho Meeting REST API
+    description: >-
+      REST API for creating, updating, and reporting on Zoho Meeting sessions
+      and Zoho Webinar events, including registrants, recordings, and meeting
+      links. Requests are authenticated with OAuth 2.0 access tokens via the
+      Authorization header.
+    humanURL: https://www.zoho.com/meeting/api-integration/
+    baseURL: https://meeting.zoho.com/api/v2
+    tags:
+      - Online Meetings
+      - Video Conferencing
+      - Webinars
+      - OAuth 2.0
+    properties:
+      - type: Documentation
+        url: https://www.zoho.com/meeting/api-integration/
+      - type: Authentication
+        url: https://www.zoho.com/meeting/api-integration/authentication.html
+      - type: SDK
+        url: https://www.zoho.com/meeting/api-integration/sdk.html
+common:
+  - type: Website
+    url: https://www.zoho.com/meeting/
+  - type: Documentation
+    url: https://www.zoho.com/meeting/api-integration/
+  - type: Pricing
+    url: https://www.zoho.com/meeting/pricing.html
+  - type: Sign Up
+    url: https://www.zoho.com/meeting/signup.html
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
