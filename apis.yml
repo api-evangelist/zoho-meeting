@@ -43,6 +43,10 @@ apis:
       - type: SDK
         url: https://www.zoho.com/meeting/api-integration/sdk.html
 common:
+  - type: GitHubOrganization
+    url: https://github.com/zoho
+  - type: LinkedIn
+    url: https://www.linkedin.com/showcase/zoho-meeting
   - type: Website
     url: https://www.zoho.com/meeting/
   - type: Documentation
