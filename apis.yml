@@ -43,6 +43,10 @@ apis:
       - type: SDKs
         url: https://www.zoho.com/meeting/api-integration/sdk.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/zoho-meeting-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/zoho-meeting-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/zoho
   - type: LinkedIn
@@ -55,6 +59,8 @@ common:
     url: https://www.zoho.com/meeting/pricing.html
   - type: Signup
     url: https://www.zoho.com/meeting/signup.html
+  - url: https://www.zoho.com/meeting/blog/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
