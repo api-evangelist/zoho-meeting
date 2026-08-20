@@ -45,6 +45,11 @@ apis:
       - Online Meetings
       - Video Conferencing
       - Webinars
+      - Authentication
+    tags_raw:
+      - Online Meetings
+      - Video Conferencing
+      - Webinars
       - OAuth 2.0
     properties:
       - type: Documentation
